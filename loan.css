@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.xx-page-title{
+    font-size: 40px;
+}
+
+.loan{
+    border: green dashed 1px;
+    padding: 10px 2px;
+}
+.support{
+    border: green dashed 1px;
+    padding: 10px 2px;
+}
+.hassle{
+    border: green dashed 1px;
+    padding: 10px 2px;
+    
+}   
+
+.xx-page-form-img{
+ border: red dashed 1px;
+ display: flex;
+}
+.img{
+    border: green dashed 1px;
+}
+.xx-page-form{
+    border: green dashed 1px;
+}
