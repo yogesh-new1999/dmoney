@@ -1,33 +1,60 @@
+
+.text-primary{
+    color: hsl(298deg 52% 36%) !important;
+}
+.btn-primary{
+    background-color: hsl(298deg 52% 36%) !important;
+    border-color: hsl(298deg 37% 19%) !important;
+    --bs-btn-focus-shadow-rgb: 136, 44, 140
+}
+.form-control{
+    border-color: hsl(298deg 52% 36%) !important;
+    color: grey;
+    --bs-btn-focus-shadow-rgb: 136, 44, 140
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(136 44 140 / 15%) !important;
+}
+.btn-outline-dark{
+    border-color: grey !important;
+    color: grey;
+}
+
+
 body{
     margin: 0;
     padding: 0;
     background-color: #fff;
 }
+i.fa {
+    cursor: pointer;
+}
+
+h1, .section-3, h3{
+    color: hsl(298deg 52% 36%);
+}
+.section-3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-3 .fa {
+    font-size: 35px;
+}
+
 .xx-page-title{
     font-size: 40px;
 }
 
-.loan{
-    border: green dashed 1px;
-    padding: 10px 2px;
+.explore-our-loans > div{
+    width: 120px;
+    box-shadow: 7px 7px 15px 0px hsl(298deg 52% 36% / 52%);
+    height: 120px;
 }
-.support{
-    border: green dashed 1px;
-    padding: 10px 2px;
+.explore-our-loans > div > i{
+    width: 40px;
+    height: 40px;
 }
-.hassle{
-    border: green dashed 1px;
-    padding: 10px 2px;
-    
-}   
 
-.xx-page-form-img{
- border: red dashed 1px;
- display: flex;
-}
-.img{
-    border: green dashed 1px;
-}
-.xx-page-form{
-    border: green dashed 1px;
-}
+
+/* btn */
+/* hsl(296deg 100% 26%) */
